@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+    <script src="https://use.fontawesome.com/2351337d22.js"></script>
+    
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-container">
+          <a href="index.html">
+              <img class="logo" src=<%= require("./img/logo.png") %> alt="logo">
+            </a>
+
+            <div class="nav-colapse">
+              <ul class="nav-items">
+                <li><a href="#">O NAMA</a>
+                <li><a href="#">POSLOVI</a>
+                <li><a href="#">KONTAKT</a>
+              </ul>
+              <p> 
+                <span class="op-05">PRATITE NAS</span>
+                <span class="nav-soc"><a href="#"><img src=<%= require("./img/t-gray.png") %> alt="twitter"></a></span>
+                <span><a href="#"><img src=<%= require("./img/f-gray.png") %> alt="facebook"></a></span></p>
+          </div>
+          <div class="menu-bar">
+            <img src=<%= require("./img/menu-bar.png") %> alt="menu">
+          </div>
+        </div>
+      </nav>
+      <div class="head-text">
+          <h1>DIWANEE SERBIA</h1>
+          <span class="line"></span>
+          <p>Digital Media Agency <span class="mobile-h">looking for motivated,<br/>multi-talented, and organized people to join our<br/>diverse team.</span></p>
+        </div>
+      <div class="head">
+        <div class="lighter"> </div>
+        <img src=<%= require("./img/head.jpg") %> alt="Beograd">   
+      </div>
+    </header>
+    <main>
+      <article class="row">
+        <div class="col-3">
+          <div class="services s1">
+            <img src=<%= require("./img/development.png") %> alt="development">
+            <h3>DEVELOPMENT</h3>
+            <span></span>
+            <p>Front-end Developers play a critical role in most projects at Code and Theory. They are actively involved throughout the project lifecycle, often times starting with rapid prototypes early in the design phase. </p>
+          </div>
+        </div>
+        <div class="col-3 services-gray">
+          <div class="services ">
+            <img src=<%= require("./img/design.png") %> alt="WEB &amp; UI DESIGN">
+            <h3>WEB &amp; UI DESIGN</h3>
+            <span></span>
+            <p>Front-end Developers play a critical role in most projects at Code and Theory. They are actively involved throughout the project lifecycle, often times starting with rapid prototypes early in the design phase. </p>
+         </div>
+        </div>
+      <div class="col-3">
+          <div class="services s3">
+            <img src=<%= require("./img/team.png") %> alt="WORK IN TEAM">
+            <h3>WORK IN TEAM</h3>
+            <span></span>
+            <p>Front-end Developers play a critical role in most projects at Code and Theory. They are actively involved throughout the project lifecycle, often times starting with rapid prototypes early in the design phase. </p>
+         </div>
+        </div>
+      </article>
+
+      <article class="poslovi">
+        <h4>OTVORENE POZICIJE</h4>
+        <h2>POSLOVI</h2>
+        <span></span>
+        <p>We are always looking for motivated, multi-talented, and organized people to join our diverse team.</p>
+      </article>
+
+      <article class="row pad">
+        <div class="ponude">
+          <div class="jobs">
+            <h3>FRONT-END DEVELOPER</h3>
+            <p>Trazimo Front End Developera sa odlicnim poznavanjem i iskustvom vise od godinu dana u Drupalu.</p>
+            <span>&num;HTML</span>
+            <span>&num;CSS</span>
+            <span>&num;JavaScript</span>
+          </div>
+            <button class="sing-in">PRIJAVI SE</button>
+        </div>
+      </article>
+
+      <article class="row pad invert">
+        <div class="ponude">
+          <div class="jobs">
+            <h3>PROJECT MANAGER</h3>
+            <p>Trazimo Project Managera sa odlicnim organizacionim sposobnostima i iskustvom vodjenja digital projekata...</p>
+            <span>&num;HTML</span>
+            <span>&num;CSS</span>
+            <span>&num;Balsamiq</span>
+            <span>&num;UXpin</span>
+          </div>
+            <button class="sing-in">PRIJAVI SE</button>
+        </div>
+      </article>
+
+      <article class="row pad">
+        <div class="ponude">
+          <div class="jobs">
+            <h3>UX/UI DESIGNER</h3>
+            <p>Ako si kreativan i volis da radis u timu, posedujes visegodisnje iskustvo iz oblasti digital dizajna, ux/ui...</p>
+            <span>&num;Sketch</span>
+            <span>&num;AdobeXD</span>
+            <span>&num;Photoshop</span>
+            <span>&num;Balsamiq</span>
+          </div>
+            <button class="sing-in">PRIJAVI SE</button>
+        </div>
+      </article>
+
+      <div class="load-more">
+        <span>UČITAJ JOŠ POZICIJA</span>
+      </div>
+
+      <article class="about-out">
+        <div class="about">
+          <h4>DIWANEE BEOGRAD</h4>
+          <h2>DIGITAL MEDIA COMPANY</h2>
+          <span></span>
+          <p>Diwanee je digitalna medijska kompanija, okrenuta velikoj ženskoj publici na Bliskom istoku. Naša kompanija stvara i distribuira originalan, visokokvalitetan i pouzdan sadržaj. Diwanee je takođe partner sa YouTube-om, i zajedno smo pokrenuli kanal "DUNIATI", nudeći na taj način sve vrste bogatog video sadržaja za arapske žene širom sveta. </p>
+          <p>Radimo sa velikim brojem brendova radi povećanja angažovanja, a sve u digitalnom prostoru. Diwanee je partner i sa velikim regionalnim vlasnicima medija, kako bismo upravljali svojom digitalnom prisutnošću.</p>
+        </div>
+
+      </article>
+
+      <article class="social">
+        <p>PRATITE NAS </p>
+        
+        <a href="#"><img src=<%= require("./img/twitter.png") %> alt="twitter"></a>
+        <a href="#"><img src=<%= require("./img/facebook.png") %> alt="facebook"></a>
+
+      </article>
+
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="location l1">
+          <img src=<%= require("./img/location.png") %> alt="location">
+          <h4>DUBAI</h4>
+          <p>Office Park, Building Block A</p>
+          <p>Units A301-A302</p>
+          <p>Dubai Internet City</p>
+          <p>T: 971 4 - 434 7147</p>
+        </div>
+
+        <div class="location l2">
+            <img src=<%= require("./img/location.png") %> alt="location">
+            <h4>BEIRUT</h4>
+            <p>Dora, Seaside Road,</p>
+            <p>BCP bldg (Facing Demco Steel)</p>
+            <p>Mobile: 961 76 - 866 700</p>
+            <p>Fax: 961 1 - 244 846</p>
+          </div>
+
+          <div class="location l3">
+              <img src=<%= require("./img/location.png") %> alt="location">
+              <h4>BELGRADE</h4>
+              <p>Resavska 33,</p>
+              <p>11000 Beograd </p>
+              <p>Tel: +381 11 - 3340 117</p>
+            </div>
+         </div>
+
+         <div class="copyright">
+           <div class="container">
+            <p>COPYRIGHT 	&copy; 2015  DIWANEEE SERBIA <span class="mobile-h">ALL RIGHTS RESERVED</span> </p>
+            <p> <a href=""> <span class="fa fa-linkedin"></span> </a>
+                <a href=""> <span class="fa fa-twitter"></span> </a>
+                www.diwanee.com</p>
+           </div>
+         </div>
+
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
+
+  </body>
+</html>
+
+
